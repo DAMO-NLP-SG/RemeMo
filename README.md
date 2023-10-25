@@ -59,7 +59,7 @@ pip install -r requirements.txt
 ### Pre-train
 
 1. Customize  the configurations in `src/pretran_t5/run_pretrain.sh` :
-    - `NSP_MODE`: choices include $\{$`mlm` (T5+LM), `mlm_trelation` (RemeMo)$\}$.
+    - `NSP_MODE`: choices include { `mlm` (T5+LM), `mlm_trelation` (RemeMo) }.
     - See `data/pretrain` for examples of the pre-training data. Prepare your own pre-training data following the same format.
     - Modify other arguments if needed.
 2. Run
