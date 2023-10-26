@@ -4,7 +4,7 @@ This repo contains the resources used in our paper: [Once Upon a *Time* in *Grap
 
 Checkpoints hosted on 🤗 HuggingFace: 
 - Pre-trained RemeMO 👉 [[rememo-base](https://huggingface.co/DAMO-NLP-SG/rememo-base)] [[rememo-large](https://huggingface.co/DAMO-NLP-SG/rememo-large)]
-- Pre-trained time expression extractor 👉 [[roberta-time_identification](https://huggingface.co/DAMO-NLP-SG/roberta-time_identification)]
+- Fine-tuned time expression extractor 👉 [[roberta-time_identification](https://huggingface.co/DAMO-NLP-SG/roberta-time_identification)]
 
 ## Table of Contents
 
