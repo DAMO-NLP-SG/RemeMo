@@ -3,7 +3,7 @@
 This repo contains the resources used in our paper: [Once Upon a *Time* in *Graph*: Relative-Time Pretraining for Complex Temporal Reasoning](https://arxiv.org/abs/2310.14709) (*EMNLP 2023*).
 
 Checkpoints hosted on 🤗 HuggingFace: 
-- Pre-trained RemeMO 👉 [[rememo-base](https://huggingface.co/DAMO-NLP-SG/rememo-base)] [[rememo-large](https://huggingface.co/DAMO-NLP-SG/rememo-large)]
+- Pre-trained RemeMo 👉 [[rememo-base](https://huggingface.co/DAMO-NLP-SG/rememo-base)] [[rememo-large](https://huggingface.co/DAMO-NLP-SG/rememo-large)]
 - Fine-tuned time expression extractor 👉 [[roberta-time_identification](https://huggingface.co/DAMO-NLP-SG/roberta-time_identification)]
 
 ## Table of Contents
@@ -17,10 +17,12 @@ Checkpoints hosted on 🤗 HuggingFace:
 - [Acknowledgements](https://github.com/DAMO-NLP-SG/RemeMo#acknowledgments)
 
 ## Overview
+![rememo_example](https://github.com/DAMO-NLP-SG/RemeMo/assets/18526640/6d1af421-11f7-4ded-9cbd-342316bd5c43)
+
 
 - RemeMo is an improved T5-based language model, which gains advanced reasoning abilities over complex temporal dependencies through pre-training using a novel time-relation-prediction (TRC) objective.
 
-- RemeMo is recommended to be used as a replacement of T5 (or other seq2seq models) in downstream tasks that require complex temporal reasoning, e.g., temporal question answering.
+- RemeMo is recommended to be used as a replacement for T5 (or other seq2seq models) in downstream tasks that require complex temporal reasoning, e.g., temporal question answering.
 
 ## Environment Setup
 
