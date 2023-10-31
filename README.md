@@ -19,10 +19,10 @@ Checkpoints hosted on 🤗 HuggingFace:
 ## Overview
 ![rememo_example](https://github.com/DAMO-NLP-SG/RemeMo/assets/18526640/6d1af421-11f7-4ded-9cbd-342316bd5c43)
 
+- **What Is RemeMo?** RemeMo is an improved T5-based language model, which gains better complex temporal reasoning abilities through pre-training using a novel time-relation-prediction (TRC) objective. 
+As shown in the figure above, the time relation between any pair of facts is adopted as the TRC pre-training label. The complex temporal dependencies among all facts are thus modeled within a fully-connected directed graph.
 
-- RemeMo is an improved T5-based language model, which gains advanced reasoning abilities over complex temporal dependencies through pre-training using a novel time-relation-prediction (TRC) objective.
-
-- RemeMo is recommended to be used as a replacement for T5 (or other seq2seq models) in downstream tasks that require complex temporal reasoning, e.g., temporal question answering.
+- **When to Use RemeMo?** RemeMo is recommended to be used as a replacement for T5 (or other seq2seq models) in downstream tasks that require complex temporal reasoning, e.g., temporal question answering.
 
 ## Environment Setup
 
